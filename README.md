@@ -1,4 +1,4 @@
 # portfolio
 
 ## ライセンス
-[MITライセンス](LICENCE.txt)のもと公開されています。
+[MITライセンス](LICENSE.txt)のもと公開されています。
