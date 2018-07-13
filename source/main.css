@@ -1,1 +1,20 @@
 @charset "utf-8";
+
+.p-topWrapper {
+  padding: 10%;
+  background-image: url(img/top.jpg);
+  text-align: left;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.p-topTitle,
+.p-topProfile {
+  color: #f1f1f1
+}
+
+.p-topProfile {
+  margin: 5px 0;
+}
