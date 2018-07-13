@@ -1,5 +1,11 @@
 @charset "utf-8";
 
+body {
+  margin: 0;
+  font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+  color: #483b3c
+}
+
 .p-topWrapper {
   padding: 10%;
   background-image: url(img/top.jpg);
@@ -17,4 +23,39 @@
 
 .p-topProfile {
   margin: 5px 0;
+}
+.p-worksWrapper {
+  padding: 5% 0;
+  background-color: #f1f1f1;
+  border-radius: 6px 0 0 6px;
+}
+.p-worksTitle {
+  text-align: center;
+  color: #333333;
+}
+.p-workTitle {
+  color: #f1f1f1;
+  display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.p-workWrap {
+  background-color: #333333;
+}
+.p-work_Programming,
+.p-work_ElectronicWork,
+.p-work_Outdoor {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.p-work_Programming {
+  background-image: url(img/code.jpg);
+}
+.p-work_ElectronicWork {
+  background-image: url(img/wbr.jpg);
+}
+.p-work_Outdoor {
+  background-image: url(img/fire.jpg);
 }
