@@ -8,7 +8,7 @@ body {
 }
 
 /* トップ画面 */
-.p-topWrapper {
+.p-topWrap {
   padding: 10%;
   background-image: url(img/top.jpg);
   text-align: left;
@@ -26,7 +26,7 @@ body {
 }
 
 /* 活動内容 */
-.p-worksWrapper {
+.p-worksWrap {
   padding: 5% 0;
   background-color: #f1f1f1;
   border-radius: 6px 0 0 6px;
