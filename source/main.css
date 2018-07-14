@@ -35,12 +35,6 @@ body {
   text-align: center;
   color: #333333;
 }
-.p-workTitle {
-  color: #f1f1f1;
-  display: flex;
-	align-items: center;
-  justify-content: center;
-}
 .p-workWrap {
   background-color: #333333;
 }
@@ -60,4 +54,10 @@ body {
 }
 .p-workImage_Outdoor {
   background-image: url(img/fire.jpg);
+}
+.p-workTitle {
+  color: #f1f1f1;
+  display: flex;
+	align-items: center;
+  justify-content: center;
 }
