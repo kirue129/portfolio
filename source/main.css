@@ -42,20 +42,20 @@ body {
 .p-workWrap {
   background-color: #333333;
 }
-.p-work_Programming,
-.p-work_ElectronicWork,
-.p-work_Outdoor {
+.p-workWrap_Programming,
+.p-workWrap_ElectronicWork,
+.p-workWrap_Outdoor {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
 }
-.p-work_Programming {
+.p-workWrap_Programming {
   background-image: url(img/code.jpg);
 }
-.p-work_ElectronicWork {
+.p-workWrap_ElectronicWork {
   background-image: url(img/wbr.jpg);
 }
-.p-work_Outdoor {
+.p-workWrap_Outdoor {
   background-image: url(img/fire.jpg);
 }
