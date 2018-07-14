@@ -39,25 +39,25 @@ body {
   color: #f1f1f1;
   display: flex;
 	align-items: center;
-	justify-content: center;
+  justify-content: center;
 }
 .p-workWrap {
   background-color: #333333;
 }
-.p-workWrap_Programming,
-.p-workWrap_ElectronicWork,
-.p-workWrap_Outdoor {
+.p-workImage_Programming,
+.p-workImage_ElectronicWork,
+.p-workImage_Outdoor {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 200px;
 }
-.p-workWrap_Programming {
+.p-workImage_Programming {
   background-image: url(img/code.jpg);
 }
-.p-workWrap_ElectronicWork {
+.p-workImage_ElectronicWork {
   background-image: url(img/wbr.jpg);
 }
-.p-workWrap_Outdoor {
+.p-workImage_Outdoor {
   background-image: url(img/fire.jpg);
 }
