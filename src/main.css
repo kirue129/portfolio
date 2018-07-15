@@ -82,3 +82,30 @@ body {
   margin: 10px auto;
   text-align: center;
 }
+
+/* お問合せ(フッター) */
+.p-contactWrap {
+  background-color: #c8ab37;
+}
+p-contactBlock {
+}
+.p-contactBatches {
+}
+.p-contactBatch_github,
+.p-contactBatch_twitter {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.p-contactBatch_github {
+}
+.p-contactBatch_twitter {
+}
+.p-contactEmail,
+.p-contactCopyright {
+  color: #ffffff;
+}
+.p-contactEmail {
+}
+.p-contactCopyright {
+}
