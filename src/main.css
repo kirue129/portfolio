@@ -94,14 +94,9 @@ p-contactBlock {
   display: flex;
   width: 80px;
 }
-.p-contactBatch_github,
-.p-contactBatch_twitter {
+.p-contactBatch_link {
   width: 32px;
   margin: 0 4px;
-}
-.p-contactBatch_github {
-}
-.p-contactBatch_twitter {
 }
 .p-contactBatch_image {
   width: 32px;
