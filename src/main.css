@@ -70,7 +70,7 @@ body {
   background-image: url(img/fire.jpg);
 }
 .p-workTitle {
-  color: #f1f1f1;
+  color: #333333;
   display: flex;
 	align-items: center;
   justify-content: center;
