@@ -90,7 +90,7 @@ body {
 }
 p-contactBlock {
 }
-.p-contactBatches {
+.p-contactBatchWrap {
   display: flex;
   width: 80px;
 }
