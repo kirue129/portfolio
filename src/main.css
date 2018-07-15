@@ -93,9 +93,7 @@ p-contactBlock {
 }
 .p-contactBatch_github,
 .p-contactBatch_twitter {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 32px;
 }
 .p-contactBatch_github {
 }
