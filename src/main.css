@@ -107,6 +107,14 @@ body {
   color: #ffffff;
 }
 .p-contactEmail {
+  text-decoration: underline;
+  -webkit-text-decoration: underline;
+}
+a.p-contactEmail:link,
+a.p-contactEmail:visited,
+a.p-contactEmail:hover,
+a.p-contactEmail:active{
+  color: #ffffff;
 }
 .p-contactCopyright {
 }
