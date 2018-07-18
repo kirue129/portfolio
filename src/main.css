@@ -108,6 +108,7 @@ body {
 .p-contactEmail {
   text-decoration: underline;
   -webkit-text-decoration: underline;
+  margin: 10px 0 5px;
 }
 a.p-contactEmail:link,
 a.p-contactEmail:visited,
@@ -116,4 +117,5 @@ a.p-contactEmail:active{
   color: #ffffff;
 }
 .p-contactCopyright {
+  margin: 5px 0;
 }
