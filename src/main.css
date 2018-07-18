@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-  color: #483b3c
+  color: #483b3c;
 }
 
 /* トップ画面 */
@@ -19,7 +19,7 @@ body {
 }
 .p-topTitle,
 .p-topProfile {
-  color: #f1f1f1
+  color: #f1f1f1;
 }
 .p-topTitle {
   font-size: 3.4rem;
