@@ -9,7 +9,7 @@ body {
 
 /* トップ画面 */
 .p-topWrap {
-  padding: 10%;
+  padding: 10% 0;
   background-image: url(img/top.jpg);
   text-align: left;
   background-size: cover;
@@ -86,7 +86,7 @@ body {
 /* お問合せ(フッター) */
 .p-contactWrap {
   background-color: #c8ab37;
-  padding: 5%;
+  padding: 5% 0;
 }
 p-contactBlock {
 }
