@@ -88,7 +88,7 @@ body {
   background-color: #c8ab37;
   padding: 5% 0;
 }
-p-contactBlock {
+.p-contactBlock {
 }
 .p-contactBatches {
   display: flex;
