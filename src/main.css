@@ -50,24 +50,30 @@ body {
   border-radius: 5px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
 }
-.p-workImage_Programming,
-.p-workImage_ElectronicWork,
-.p-workImage_Outdoor {
+.p-workImage_programming,
+.p-workImage_electronicWork,
+.p-workImage_touring,
+.p-workImage_camp
+ {
   border-radius:5px 5px 0 0;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 190px;
 }
-.p-workImage_Programming {
+.p-workImage_programming {
   background-image: url(img/code.jpg);
 }
-.p-workImage_ElectronicWork {
+.p-workImage_electronicWork {
   background-image: url(img/wbr.jpg);
 }
-.p-workImage_Outdoor {
-  background-image: url(img/bike.jpg);
+.p-workImage_touring {
+  background-image: url(img/touring.jpg);
 }
+.p-workImage_camp {
+  background-image: url(img/camp.jpg);
+}
+
 .p-workTitle {
   color: #333333;
   text-align: center;
