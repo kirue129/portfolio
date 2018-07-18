@@ -11,10 +11,10 @@ body {
 .p-topWrap {
   padding: 10% 0;
   background-image: url(img/top.jpg);
-  text-align: left;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: left;
   width: 100%;
 }
 .p-topTitle,
