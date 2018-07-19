@@ -6,67 +6,120 @@
     <meta name="format-detection" content="telephone=no">
     <title>kirue129</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/icon.ico">
     <link href="bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="main.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?20171204" charset="utf-8"></script>
     <script src="main.js" charset="utf-8"></script>
   </head>
   <body>
-    <div class="main">
-      <div id="top" class="p-topWrap">
+    <main class="main">
+      <article id="top" class="p-topWrap">
         <div class="container">
           <div class="row">
             <div class="col-xs-12">
               <h1 class="p-topTitle">@kirue129</h1>
-              <p class="p-topProfile">
-                都内某所のカフェに引きこもり、気ままにネットサーフィンをする自称フロントエンジニア
-              </p>
-              <p class="p-topProfile">
-                コーディング以外にもキャンプとかツーリングで徘徊している放浪者だったりもする
-              </p>
-              <p class="p-topProfile">
-                最近はお仕事で疲弊気味、お休み欲しいな・・・(´・ω・｀)
-              </p>
+              <div class="hidden-xs">
+                <p class="p-topProfile">
+                  都内某所のカフェに引きこもり、気ままにネットサーフィンをする自称フロントエンジニア
+                </p>
+                <p class="p-topProfile">
+                  コーディング以外にもキャンプとかツーリングで徘徊している放浪者だったりもする
+                </p>
+                <p class="p-topProfile">
+                  最近はお仕事で疲弊気味、お休み欲しいな・・・(´・ω・｀)
+                </p>
+              </div>
+              <div class="p-topProfileWrap visible-xs">
+                <p class="p-topProfile">
+                  都内某所のカフェに引きこもり、気ままにネットサーフィンをする自称フロントエンジニア
+                </p>
+                <p class="p-topProfile">
+                  コーディング以外にもキャンプとかツーリングで徘徊している放浪者だったりもする
+                </p>
+                <p class="p-topProfile">
+                  最近はお仕事で疲弊気味、お休み欲しいな・・・(´・ω・｀)
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div id="works" class="p-worksWrap">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <h2 class="p-worksTitle">Works</h2>
+      </article>
+      <article id="works" class="p-worksWrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="p-worksTitle">Works</h2>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-4">
-            <div class="p-workWrap">
-              <div class="p-workImage_Programming">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="p-workWrap">
+                <div class="p-workImage_programming"></div>
                 <h3 class="p-workTitle">Programming</h3>
+                <p class="p-workDescription">
+                  組み込み系からwebアプリまで<br>
+                  一応幅広くやってます
+                </p>
               </div>
-              <p>組み込み系からwebアプリまで一応幅広くやってます</p>
             </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="p-workWrap">
-              <div class="p-workImage_ElectronicWork">
+            <div class="col-sm-6">
+              <div class="p-workWrap">
+                <div class="p-workImage_electronicWork"></div>
                 <h3 class="p-workTitle">Electronic Work</h3>
+                <p class="p-workDescription">
+                  基本的には組み込み部分を担当<br>
+                  自分で回路から作ることも
+                </p>
               </div>
-              <p>基本的には組み込み部分を担当、たまに自分で回路から作ることもあります</p>
             </div>
           </div>
-          <div class="col-sm-4">
-            <div class="p-workWrap">
-              <div class="p-workImage_Outdoor">
-                <h3 class="p-workTitle">Outdoor</h3>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="p-workWrap">
+                <div class="p-workImage_touring"></div>
+                <h3 class="p-workTitle">Touring</h3>
+                <p class="p-workDescription">
+                  クロスバイクでふらりと散策<br>
+                  都内の自然を求めてぶらぶら
+                </p>
               </div>
-              <p>休日の時間があるときはクロスで遠出をしたり、キャンプして過ごしてます</p>
+            </div>
+            <div class="col-sm-6">
+              <div class="p-workWrap">
+                <div class="p-workImage_camp"></div>
+                <h3 class="p-workTitle">Camp</h3>
+                <p class="p-workDescription">
+                  時間があれば遠出してます<br>
+                  日常を離れ自然の奥でひっそりと
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      <div id="contact" class="p-contactWrap">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="p-contactBlock">
+                <div class="p-contactBatches">
+                  <a class="p-contactBatch_link" href="https://github.com/kirue129/" target="_blank">
+                    <img class="p-contactBatch_image" src="img/GitHub-Mark-Light-32px.png">
+                  </a>
+                  <a class="p-contactBatch_link" href="https://twitter.com/kirue129" target="_blank">
+                    <img class="p-contactBatch_image" src="img/Twitter_Social_Icon_Circle_White.png">
+                  </a>
+                </div>
+                <a class="p-contactEmail" href="mailto:kirue129.develop@gmail.com">kirue129.develop@gmail.com</a>
+                <p class="p-contactCopyright">© kirue129</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <footer></footer>
+    </footer>
   </body>
 </html>
