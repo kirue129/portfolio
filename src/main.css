@@ -112,10 +112,6 @@ body {
   -ms-transform: rotate(-3deg);
   z-index: -1;
 }
-.p-contactWrap_inner {
-  width: 100%;
-  height: 100%;
-}
 .p-contactBlock {
   text-align: right;
 }
