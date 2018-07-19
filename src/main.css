@@ -4,7 +4,7 @@
 body {
   margin: 0;
   font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
-  color: #483b3c;
+  color: #333333;
   background-color: #f1f1f1;
 }
 
@@ -39,7 +39,6 @@ body {
 }
 .p-worksTitle {
   text-align: center;
-  color: #333333;
   font-size: 2.8rem;
 }
 .p-workWrap {
@@ -78,7 +77,6 @@ body {
 }
 
 .p-workTitle {
-  color: #333333;
   text-align: center;
   width: 90%;
   font-size: 2rem;
